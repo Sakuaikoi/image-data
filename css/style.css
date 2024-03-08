@@ -141,7 +141,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-size: 4rem;
-  overflow: hidden;
 }
 
 .page-bg,
