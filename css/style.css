@@ -28,6 +28,9 @@ body {
 .center {
   position: absolute;
   top: 40%;
+  flex-grow: 1;
+  justify-content: center;
+  padding-bottom: 2rem; 
   left: 50%;
   -webkit-transform: translate(-50%, -40%);
           transform: translate(-50%, -40%);
@@ -44,7 +47,7 @@ body {
 
 p {
   margin: auto;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   font-weight: 400;
   color: var(--gray);
   max-width: 80%;
@@ -148,7 +151,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 4rem;
+  font-size: 3rem;
   min-height: 100vh;
   overflow-y: auto; /* 允许垂直滚动 */
   flex-direction: column;
